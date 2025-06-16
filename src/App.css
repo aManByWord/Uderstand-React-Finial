@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+
+.button{
+    color: white;
+    background-color: lightcoral;
+    /* padding: 0.2rem;
+    margin: 0 0.3rem; */
+}
+
+.counter{
+    display: flex;
+    width: fit-content;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.counter__name{
+    flex-basis: 100%;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    color: #6A5ACD  ;
+}
+/* .counter__val{
+    margin-inline-start: 0;
+    font-size: large;
+} */
+
+.counter__empty{
+    width: 20px;
+    /* height: inherit; */
+    /* display: inline-block; */
+}
+
+.summary{
+    color: #DAA520   ;
+    font-size: x-large;
+    font: bolder;
+    display: flex;
+    flex-direction: column;
+}
+.summary__header a{
+    color: lightcoral;
+    transition: color 0.4s ease;
+}
+.summary__header .active{
+    color: teal;
+}
+.active{
+    color: teal;
+}
+
+.add-counter{
+    color: darkgoldenrod;
+}
